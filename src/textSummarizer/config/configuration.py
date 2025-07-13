@@ -1,7 +1,7 @@
 from src.textSummarizer.constants import *
 from src.textSummarizer.utils.common import read_yaml, create_directories
 
-from src.textSummarizer.entity import DataIngestionConfig,ModelEvaluationConfig,DataTransformationConfig,ModelTrainerConfig
+from src.textSummarizer.entity import DataIngestionConfig
 
 class ConfigurationManager:
     def __init__(self,
